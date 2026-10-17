@@ -12,7 +12,7 @@ Script Purpose:
 
 
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
-    DROP TABLE crm_cust_info;
+    DROP TABLE bronze.crm_cust_info;
 
 CREATE  TABLE bronze.crm_cust_info(
 	cst_id int,
@@ -25,7 +25,7 @@ CREATE  TABLE bronze.crm_cust_info(
 );
 
 IF OBJECT_ID('bronze.crm_prd_info', 'U') IS NOT NULL
-    DROP TABLE crm_prd_info;
+    DROP TABLE bronze.crm_prd_info;
 
 CREATE  TABLE bronze.crm_prd_info(
 	prd_id int,
@@ -38,7 +38,7 @@ CREATE  TABLE bronze.crm_prd_info(
 );
 
 IF OBJECT_ID('bronze.crm_sales_details', 'U') IS NOT NULL
-    DROP TABLE crm_sales_details;
+    DROP TABLE bronze.crm_sales_details;
 
 CREATE  TABLE bronze.crm_sales_details(
 	sls_ord_num nvarchar(50),
@@ -53,7 +53,7 @@ CREATE  TABLE bronze.crm_sales_details(
 );
 
 IF OBJECT_ID('bronze.erp_cust_az12', 'U') IS NOT NULL
-    DROP TABLE erp_cust_az12;
+    DROP TABLE bronze.erp_cust_az12;
 
 CREATE  TABLE bronze.erp_cust_az12(
 	cid nvarchar(50),
@@ -62,7 +62,7 @@ CREATE  TABLE bronze.erp_cust_az12(
 );
 
 IF OBJECT_ID('bronze.erp_loc_a101', 'U') IS NOT NULL
-    DROP TABLE erp_loc_a101;
+    DROP TABLE bronze.erp_loc_a101;
 
 CREATE  TABLE bronze.erp_loc_a101(
 	cid nvarchar(50),
@@ -70,7 +70,7 @@ CREATE  TABLE bronze.erp_loc_a101(
 );
 
 IF OBJECT_ID('bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
-    DROP TABLE erp_px_cat_g1v2;
+    DROP TABLE bronze.erp_px_cat_g1v2;
 
 CREATE  TABLE bronze.erp_px_cat_g1v2(
 	id nvarchar(50),
